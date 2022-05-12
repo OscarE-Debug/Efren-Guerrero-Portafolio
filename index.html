@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="portafolio web de Efren Guerrero la mejor opcion para realizar tu pagina web">
+    <meta name="author" content="efren guerrero">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <title>Efren Guerrero | Portafolio</title>
+    <script src="js/main.js" defer></script>
+    <script src="js/scrollreveal.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <section class="navigation">
+            <nav class="container container-navigation">
+                <a href="#" class="navbrand-logo">Efren Guerrero</a>
+                <div class="mobile-links">
+                    <ul class="list-links orientation-mobile">
+                        <li><a href="#about-me" class="link-nav">Sobre mi</a></li>
+                        <li><a href="#services" class="link-nav">Mis servicios</a></li>
+                        <li><a href="#portfolio" class="link-nav">Portafolio</a></li>
+                        <li><a href="#contact-me" class="link-nav">Contactame</a></li>
+                        <li><a href="#" class="link-nav"><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="#" class="link-nav"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#" class="link-nav"><i class="bi bi-github"></i></a></li>
+                    </ul>
+                </div>
+                <i class="bi bi-list"></i>
+                <i class="bi bi-x"></i>
+            </nav>
+        </section>
+    </header>
+
+    <section class="hero">
+        <video src="video/Codding.mp4" autoplay muted loop></video>
+        <div class="content-hero">
+            <div class="container container-hero">
+                <h1 class="title title-1 reveal">
+                    Hola mi nombre es Efren Guerrero.
+                    <br>
+                    Soy front-end developer.
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="articles">
+        <div class="container">
+            <main>
+                <article id="about-me">
+                    <img class="decoration-image reveal reveal-right" src="img/codding.jpg" alt="">
+                    <div class="description-about-me reveal reveal-right">
+                        <h2 class="title title-2">Sobre mi</h2>
+                        <p class="text text-1">
+                            Soy un desarrollador web independiente, me especializo en la maquetación y diseño de las
+                            páginas web, tengo experiencia con múltiples entornos de desarrollo y siempre implemento las
+                            mejores prácticas con las tecnologías más recientes.
+                        </p>
+                    </div>
+                </article>
+            </main>
+
+            <hr>
+
+            <article id="services">
+                <div class="description-services">
+                    <h3 class="title title-3 reveal">Mis servicios</h3>
+                    <p class="text text-2 reveal">
+                        Los servicios que yo doy estan conectados directamente a el diseño de las paginas web, aunque
+                        tambien puedo realizar formularios funcionales y realizar bases de datos ideales para un pequeño
+                        ecommerce.
+                    </p>
+                </div>
+                <div class="items-services reveal reveal-special">
+                    <div class="item">
+                        <img src="img/html logo.png" alt="html logo" class="image-services">
+                        <p class="text text-card-item">Optimizacion de posicionamiento SEO.</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/css logo.png" alt="css logo" class="image-services">
+                        <p class="text text-card-item">Una pagina visualmente hermosa.</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/javascript logo.png" alt="javascript logo" class="image-services">
+                        <p class="text text-card-item">Una pagina bien optimizada y funcional</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/responsive-design.png" alt="responsive design" class="image-services">
+                        <p class="text text-card-item">Diseño responsivo y adaptabilidad</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/mantenimiento.png" alt="mantenimiento web" class="image-services">
+                        <p class="text text-card-item">Mantenimiento de las paginas web</p>
+                    </div>
+                    <div class="item">
+                        <img src="img/database.png" alt="base de datos" class="image-services">
+                        <p class="text text-card-item">Manejo de base de datos pequeña</p>
+                    </div>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="portfolio">
+                <h4 class="title title-4 reveal reveal-right">
+                    Portafolio | Los proyectos que desarrollé.
+                </h4>
+                <div class="web-templates reveal reveal-special">
+                    <img src="img/Template 1.png" alt="interior decorator web template" class="image-portfolio">
+                    <img src="img/Template 2.png" alt="" class="image-portfolio">
+                    <img src="img/Template 3.png" alt="" class="image-portfolio">
+                </div>
+
+                <div class="my-knowledge">
+                    <h5 class="title title-5 reveal">Mis conocimientos</h5>
+                    <div class="images-knowledge reveal reveal-special">
+                        <img src="img/html logo.png" alt="html logo" class="image-knowledge">
+                        <img src="img/css logo.png" alt="css logo" class="image-knowledge">
+                        <img src="img/javascript logo.png" alt="javascript logo" class="image-knowledge">
+                        <img src="img/bootstrap_logo.png" alt="bootstrap logo" class="image-knowledge">
+                        <img src="img/react_logo.png" alt="react logo" class="image-knowledge">
+                        <img src="img/php_logo.png" alt="php logo" class="image-knowledge">
+                    </div>
+                </div>
+            </article>
+
+            <hr>
+
+            <article id="contact-me" class="reveal reveal-special">
+                <h6 class="title title-6">Contactame</h6>
+                <form action="php/index.php" method="post" class="form-contact">
+                    <div class="form-item">
+                        <label for="name" class="form-label">Nombre de contacto</label>
+                        <input name="name" type="text" placeholder="Nombre" class="form-input" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="name" class="form-label">Asunto</label>
+                        <input name="business" type="text" placeholder="Ejemplo: creacion de sitio web"
+                            class="form-input" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="email" class="form-label">Email de contacto</label>
+                        <input name="email" type="email" placeholder="e-mail" class="form-input" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea name="message" id="message-textarea" class="message-textarea form-input"
+                            required></textarea>
+                    </div>
+                    <button name="submit" type="submit" class="btn-submit">Enviar</button>
+                </form>
+            </article>
+        </div>
+    </section>
+
+    <section class="section-footer">
+        <footer class="container">
+            <div class="footer-content">
+                <p class="text-footer">Muchas gracias por visitar</p>
+                <p class="text-footer">Pagina hecha por Efren Guerrero</p>
+            </div>
+            <div class="footer-content">
+                <p class="text-footer">Sigueme en mis redes:</p>
+                <div class="links-footer">
+                    <a href="#" class="link-footer"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="link-footer"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="link-footer"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>
